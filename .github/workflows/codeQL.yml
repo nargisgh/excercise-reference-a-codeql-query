@@ -21,7 +21,7 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1
         with:
-          languages: 'javascript, python' # specify the languages you want to analyze
+          languages: 'javascript, java' # specify the languages you want to analyze
           config-file: .github/codeql/codeql-config.yml # optional, specify the config file if you have one
 
       - name: Perform CodeQL Analysis
